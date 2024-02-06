@@ -1,0 +1,7 @@
+aws:
+  access_key_id: <%= ENV['AWS_ACCESS_KEY_ID'] %>
+  secret_access_key: <%= ENV['AWS_SECRET_KEY']%>
+  region: 'us-west-1'
+concurrency: 4
+queues:
+  - https://sqs.us-east-1.amazonaws.com/869830672968/testq
